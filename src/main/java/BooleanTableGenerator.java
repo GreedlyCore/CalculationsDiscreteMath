@@ -55,9 +55,7 @@ public class BooleanTableGenerator {
         return rows;
     }
 
-    public int getCountVariables() {
-        return countVariables;
-    }
+
 
     @Override
     public String toString() {
