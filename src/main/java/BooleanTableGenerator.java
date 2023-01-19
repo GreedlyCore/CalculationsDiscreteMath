@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.ArrayList;
 
 public class BooleanTableGenerator {
@@ -57,6 +56,8 @@ public class BooleanTableGenerator {
 
 
 
+
+
     @Override
     public String toString() {
         StringBuilder result = new StringBuilder();
@@ -89,7 +90,7 @@ public class BooleanTableGenerator {
         for (int i = 0; i < 20; i++) {
             BooleanTableGenerator table = new BooleanTableGenerator();
             //table.writeTableToFile();
-            System.out.println(table.toString());
+            System.out.println(table);
         }
     }
 }
