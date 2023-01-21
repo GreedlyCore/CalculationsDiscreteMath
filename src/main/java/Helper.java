@@ -9,6 +9,14 @@ import java.util.List;
 
 public class Helper {
 
+
+    public static int[] mapStringToInteger(String[] arr) {
+        int[] result = new int[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            result[i] = Integer.parseInt(arr[i]);
+        }
+        return result;
+    }
     public static int[] reversePair(int[] pair) {
         int[] result = new int[2];
         result[0] = pair[1];
