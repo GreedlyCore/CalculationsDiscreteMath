@@ -66,5 +66,11 @@ public class Helper {
         return false;
     }
 
+    static void printSpaces(int[] arr){
+        for (int i: arr){
+            System.out.print(i + " ");
+        }
+    }
+
 
 }

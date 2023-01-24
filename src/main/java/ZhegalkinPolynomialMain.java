@@ -14,7 +14,8 @@ public class ZhegalkinPolynomialMain {
         System.out.println(zhegalkin3);
 
         //TODO надо сортировать массив для треугольника паскаля, чтобы добавить ввод в любом порядке
-        //TODO сделать проверку валидности ввода (в том числе - если строка повторилась уже в этом вводе: попросить снова)
+        // - any order of rows in boolean table - will lead to the same result here
+
 
     }
 

@@ -60,9 +60,18 @@ public class ZhegalkinPolynomial {
         System.out.println("Enter func value");
         for (int i = 0; i < countRows; i++) {
 
-            System.out.print(Arrays.toString(argumentsTable[i]) + " ");
-            functionValues[i] = Integer.parseInt(scanner.nextLine());
-            System.out.print("\n");
+
+            int number = -1;
+            do {
+                Helper.printSpaces(argumentsTable[i]);
+                if (scanner.hasNextInt()) {
+                    number = scanner.nextInt();
+                } else {
+                    scanner.next();
+                }
+
+            } while (number != 0 && number != 1);
+            functionValues[i] = number;
         }
 
         this.polynomialComponentsStringArray = new ArrayList<>();

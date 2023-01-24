@@ -55,9 +55,6 @@ public class BooleanTableGenerator {
     }
 
 
-
-
-
     @Override
     public String toString() {
         StringBuilder result = new StringBuilder();
@@ -67,24 +64,6 @@ public class BooleanTableGenerator {
         return result.toString();
     }
 
-
-//    public void writeTableToFile() {
-//        try {
-//            File file = new File(getClass().getResource("boolean_tables.txt").getPath());
-//            FileWriter fileWriter = new FileWriter(file, true);
-//            BufferedWriter writer = new BufferedWriter(fileWriter);
-//            writer.write(this.toString());
-//
-//            fileWriter.close();
-//
-//        } catch (IllegalArgumentException | IOException e) {
-//            System.out.println("file not found!");
-//            e.printStackTrace();
-//        }finally {
-//            fileWriter.flush();
-//            fileWriter.close();
-//        }
-//    }
 
     public static void main(String[] args) {
         for (int i = 0; i < 20; i++) {
